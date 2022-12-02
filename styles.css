@@ -37,4 +37,15 @@ body{
 }
 .logo{
     width: 22px;
+
 }
+.location{
+    color: red;
+position: relative;
+    animation: myfirst 0.5s linear 0.5s infinite alternate;
+}
+
+@keyframes myfirst {
+    from {color: red;}
+    to {color: rgb(61, 53, 170); right:5px;}
+  }
