@@ -19,6 +19,13 @@ body{
 }
 .heading{
     color: rgb(30, 16, 116);
+    position: relative;
+    animation: colorChange 1s linear 0.8s ;
+}
+
+@keyframes colorChange {
+    from{color: rgb(57, 36, 196);left:-400px}
+    to{color: rgb(141, 78, 78);left:0px}
 }
 .venue{
     color: rgb(136, 40, 40);
@@ -42,10 +49,10 @@ body{
 .location{
     color: red;
 position: relative;
-    animation: myfirst 0.5s linear 0.5s infinite alternate;
+    animation: myfirst 0.1s linear 0.1s infinite alternate;
 }
 
 @keyframes myfirst {
     from {color: red;}
-    to {color: rgb(61, 53, 170); right:5px;}
+    to {color: rgb(61, 53, 170); }
   }
