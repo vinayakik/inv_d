@@ -19,13 +19,24 @@ body{
 }
 .heading{
     color: rgb(30, 16, 116);
+
+}
+
+.bride{
     position: relative;
     animation: colorChange 1s linear 0.8s ;
 }
-
 @keyframes colorChange {
-    from{color: rgb(57, 36, 196);left:-400px}
+    from{color: rgb(57, 36, 196);left:-200px}
     to{color: rgb(141, 78, 78);left:0px}
+}
+.groom{
+    position: relative;
+    animation: colorChange2 1s linear 0.8s ;
+}
+@keyframes colorChange2 {
+    from{color: rgb(57, 36, 196);right:-200px}
+    to{color: rgb(141, 78, 78);right:0px}
 }
 .venue{
     color: rgb(136, 40, 40);
